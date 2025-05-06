@@ -24,13 +24,19 @@
     .social_icons {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         color: white;
 
         svg {
             font-size: 1.8em;
         }
     }
+
+    .social_icons img {
+        width: 35px;
+        height: 35px;
+    }
+      
 
     .mobile_social_icons {
         display: none;
