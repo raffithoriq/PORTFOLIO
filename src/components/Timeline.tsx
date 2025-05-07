@@ -1,10 +1,10 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import "../assets/styles/Timeline.scss";
 
 function Timeline() {
   return (
@@ -14,38 +14,25 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2017 - 2019"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">SMP Negeri 6 Samarinda</h3>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
+            <p>Menjadi Sekertaris Umum Organisasi Siswa Intra Sekolah, dan Menjadi anggota Paskibraka.</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2020 - 2022" iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }} icon={<FontAwesomeIcon icon={faBriefcase} />}>
             <h3 className="vertical-timeline-element-title">SMA Negeri 2 Samarinda</h3>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
+            <p>Menjadi anggota Majelis Perwakilan Kelas</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2022 - Present" iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }} icon={<FontAwesomeIcon icon={faBriefcase} />}>
             <h3 className="vertical-timeline-element-title">Universitas Mulawarman</h3>
             <h4 className="vertical-timeline-element-subtitle">S1 Sistem Informasi</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Menjadi anggota Himpunan Mahasiswa Sistem Informasi (INFORSA), Menjadi Praktisi atau Asisten laboratorium mata kuliah pemrograman web, dan Menjadi mahasiswa kampus merdeka program studi independen Pemrograman Web E-Commerce di
+              PT. Arkatama Multi Solusindo
             </p>
           </VerticalTimelineElement>
           {/* <VerticalTimelineElement
